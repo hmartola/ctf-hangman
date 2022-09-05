@@ -28,7 +28,7 @@ const Modal = ({ count }) => {
       <div className={container}>
         <div className={modal}>
           <div className={modalTitle}>
-            <h2>Winner winner chicken dinner!</h2>
+            <h2>Congratulations!</h2>
           </div>
           <div>
             <p>flag placeholder</p>
