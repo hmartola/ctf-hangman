@@ -1,18 +1,18 @@
 import * as React from 'react'
 
 import { container } from '../components/css/main.module.css'
-import clue from '../images/ctfAlbinEncoded.png'
+import albin from '../images/ctfAlbinAscii.png'
 
 const IndexPage = () => {
   return (
     <div className={container}>
       <main>
-        <img src={clue} alt='Clue to next step' />
+        <img src={albin} alt='Albin' />
       </main>
     </div>
   )
 }
 
-export const Head = () => <title>CTF - Find URL</title>
+export const Head = () => <title>CTF - ???</title>
 
 export default IndexPage
