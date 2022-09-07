@@ -17,10 +17,10 @@ const HangmanPage = () => {
   const [count, setCount]  = useState(6)
 
   useEffect(() => {
-    fetch('https://random-word-api.herokuapp.com/word?length=10')
+    fetch('https://random-word-api.herokuapp.com/word?number=1000&length=10')
       .then(res => res.json())
       .then(data => {
-        setWord(data[0])
+        setWord(data[Math.floor(Math.random() * 1000)])
         //console.log(data)   // dev only
       })
       .catch(error => console.log(error))
@@ -66,7 +66,7 @@ const HangmanPage = () => {
   )
 }
 
-export const Head = () => <title>CTF - Hangman</title>
+export const Head = () => <title>CTF - Game</title>
 
 export default HangmanPage
 
