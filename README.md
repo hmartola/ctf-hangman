@@ -1,3 +1,7 @@
+A quick and simple Gatsby project created for a university CTF (capture the flag) event. The index (landing) page contains an encrypted endpoint which leads to another page. This page is a simple Hangman-type game where the user must guess a random word by picking letters. Guessing the correct word leads to a popup with the flag. If the user fails to guess the correct word a YouTube link is returned...
+
+##
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
